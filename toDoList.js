@@ -46,6 +46,7 @@ function deleted(itemIndex){
     localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray));
     update();
 }
+
 function clearStorage(){
     if (confirm("Do you want to clear?")){
     localStorage.clear();
